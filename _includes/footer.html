@@ -1,0 +1,24 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <address>
+          Diapason Produções LTDA/ME
+          </br>CNPJ: 12.345.678/0001-12
+          </br>Av. 13, 123, entre ruas 3 e 4, Centro, Rio Claro-SP
+          </br>CEP: 13500-01
+        </address>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="social">
+          {% for social in site.social %}
+            <a href="{{ social.url }}" target='_blank' alt='{{ social.title }}'>
+              <i class="fa {{ social.icon}}"></i>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
