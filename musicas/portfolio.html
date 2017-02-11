@@ -1,0 +1,52 @@
+---
+layout: multiple_page
+title: Músicas
+permalink: /musicas/portfolio/
+
+portfolio: active
+description: 'Nosso portfólio mostra um pouco do que temos feito. Esses são alguns dos projetos que fizemos nos últimos anos:'
+---
+
+{% for portfolio in site.data.musicas.portfolio %}
+  <div class="item">
+    <h2 class="title">{{ portfolio.title }}</h2>
+
+    <div class="slider" data-slider-container="{{ forloop.index }}">
+
+      <div class="slide-action back" data-back="" data-slide-action="">
+        <i class="fa fa-angle-left"></i>
+      </div>
+
+      <div class="slider-container">
+        {% for image in portfolio.images %}
+          <div class="slide-item" data-slide="">
+            <img src="{{ image | relative_url }}">
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="slide-list-container" data-slider-list=""></div>
+
+    <div class="slide-action next" data-next="" data-slide-action="">
+      <i class="fa fa-angle-right"></i>
+    </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="sub-description">
+          {{ portfolio.description }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="testimony">
+          {{ portfolio.testimony }}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}

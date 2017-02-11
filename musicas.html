@@ -1,0 +1,48 @@
+---
+layout: multiple_page
+title: Músicas
+permalink: /musicas/
+redirect_from:
+  - /musicas/estrutura/
+  - /musicas/estruturas/
+
+estrutura: active
+description: 'A Diapason Músicas é a nossa área de produção musical! Aqui nós combinamos produção musical profissional, com produtores experientes formados em universidades internacionais, a equipamentos excelentes e técnicas refinadas de gravação, mixagem e masterização. São três estúdios projetados, construídos e dedicados a cada uma das etapas de produção:'
+---
+
+
+{% for estrutura in site.data.musicas.estruturas %}
+  <div class="item">
+    <h2 class="title">{{ estrutura.title }}</h2>
+
+    <div class="slider" data-slider-container="{{ forloop.index }}">
+
+      <div class="slide-action back" data-back="" data-slide-action="">
+        <i class="fa fa-angle-left"></i>
+      </div>
+
+      <div class="slider-container">
+        {% for image in estrutura.images %}
+          <div class="slide-item" data-slide="">
+            <img src="{{ image | relative_url }}">
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="slide-list-container" data-slider-list=""></div>
+
+    <div class="slide-action next" data-next="" data-slide-action="">
+      <i class="fa fa-angle-right"></i>
+    </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="sub-description">
+          {{ estrutura.description }}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
