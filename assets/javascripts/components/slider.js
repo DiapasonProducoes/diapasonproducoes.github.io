@@ -12,7 +12,6 @@ function Slider(sliderContainer) {
       activeSlideNumber   = 0;
 
   self.init = function() {
-    console.log(slider);
     slides      = self.findSlides();
     slideList   = self.findSlideList();
     slidesSize  = self.findSlideSize();
