@@ -1,0 +1,52 @@
+// card
+.card {
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  height: 320px;
+  overflow: hidden;
+  border: solid 1px $white-two;
+
+  .title {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: $pale-red;
+    text-transform: uppercase;
+  }
+
+  .sub-description {
+    margin-top: 40px;
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: $greyish-brown;
+  }
+}
+
+.card-o {
+  border: none;
+  text-align: center;
+  height: 470px;
+
+  .avatar {
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .sub-title {
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: italic;
+    color: $pale-red;
+  }
+
+  .sub-description {
+    text-align: center;
+    color: $greyish-brown;
+  }
+}

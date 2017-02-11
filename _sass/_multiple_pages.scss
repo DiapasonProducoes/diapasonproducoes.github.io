@@ -1,0 +1,127 @@
+@import "variables";
+@import "shared/header";
+
+.sub-menu {
+  height: 84px;
+  line-height: 82px;
+  border-bottom: solid 2px $greyish;
+
+  .title {
+    font-size: 2.25rem;
+    font-weight: normal;
+    font-style: italic;
+    color: $greyish-brown;
+  }
+
+  ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+    margin-left: 20px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: $greyish-brown;
+
+    &:hover,
+    &.active {
+      cursor: pointer;
+      border-bottom: solid 2px $pale-red;
+    }
+  }
+
+  a {
+    color: $greyish-brown;
+  }
+}
+
+.description {
+  margin: 60px 0;
+  opacity: 0.7;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  color: $greyish-brown;
+  text-align: center;
+
+  &.small {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: 1.5;
+  }
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: $pale-red;
+  text-transform: uppercase;
+}
+
+.item {
+  margin-bottom: 60px;
+
+  .sub-description {
+    margin-top: 30px;
+    opacity: 0.7;
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: $greyish-brown;
+  }
+
+  h2 {
+    &.title {
+      margin-bottom: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: $pale-red;
+    }
+  }
+
+  .testimony {
+    margin-top: 30px;
+    position: relative;
+
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.67;
+    text-align: center;
+    color: $greyish-brown;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      height: 45px;
+      width: 45px;
+      z-index: -1;
+
+      background-image: url('images/left-quote.png');
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    &:before {
+      left: -50px;
+      top: 0;
+    }
+
+    &:after {
+      right: -50px;
+      bottom: 0;
+
+      transform: rotate(180deg);
+    }
+  }
+}

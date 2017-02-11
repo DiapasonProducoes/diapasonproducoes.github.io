@@ -1,0 +1,42 @@
+/* Color palette */
+
+$white: #ffffff;
+$scarlet: #d0021b;
+$greyish-brown: #4a4a4a;
+$pale-red: #d83f39;
+$greyish: #b4b4b4;
+$white-two: #e7e7e7;
+$black: #000000;
+$black-0: rgba(0, 0, 0, 0);
+$black-60: rgba(0, 0, 0, 0.6);
+$dark-sky-blue: #3a93d6;
+$greenish-teal: #33cc99;
+$scarlet-80: rgba(208, 1, 27, 0.8);
+$white-three: #d8d8d8;
+$black-two: #131313;
+$black-three: #282828;
+$black-four: #101010;
+$white-0: rgba(255, 255, 255, 0);
+
+// Our variables
+$base-font-family: 'Lato', sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       $black-three;
+$background-color: #fdfdfd;
+$brand-color:      $scarlet;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
