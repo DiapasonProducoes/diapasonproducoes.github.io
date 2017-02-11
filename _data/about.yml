@@ -1,0 +1,20 @@
+team:
+  - avatar: assets/images/about/dl.png
+    name: Danilo Leite
+    role: Sócio, Produtor Musical
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - avatar: assets/images/about/dr.png
+    name: Diego Rigolino
+    role: Sócio, Produtor Audiovisual
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - avatar: assets/images/about/mr.png
+    name: Marcelo Rigolino
+    role: Diretor Administrativo
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - avatar: assets/images/about/rg.png
+    name: Rafael Gerazo
+    role: Músico, Assistente de Produção
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
