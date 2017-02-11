@@ -1,20 +1,44 @@
 ---
 layout: page
-title: About page
-permalink: /about/
+title: Sobre
+permalink: /sobre/
 ---
 
-<h2>
-  Hey
-</h2>
-<!--
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+    <div class="description">
+      In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris. Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turp.
+    </div>
+  </div>
+</div>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
- -->
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+    <div class="description small">
+      Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio. Donec bibendum nunc.
+    </div>
+  </div>
+</div>
+
+
+<h2 class="title text-center">EQUIPE</h2>
+
+<div class="row">
+  {% for member in site.data.about.team %}
+    <div class="col-sm-6">
+      <div class="card card-o">
+        <img src="{{ member.avatar | relative_url }}" class="avatar">
+        <div class="title">{{ member.name }}</div>
+        <div class="sub-title">{{ member.role }}</div>
+        <div class="sub-description">{{ member.description }}</div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+
+
+
+
