@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="sub-menu">
+  <div class="container">
+    <div class="title pull-left">
+      {{ page.title }}
+    </div>
+
+    <ul class="pull-right">
+      <li class="{{ page.estrutura }}">
+        <a href="/musicas/">ESTRUTURA</a>
+      </li>
+      <li class="{{ page.servicos }}">
+        <a href="/musicas/servicos/">SERVIÇOS</a>
+      </li>
+      <li class="{{ page.portfolio }}">
+        <a href="/musicas/portfolio/">PORTFÓLIO</a>
+      </li>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <div class="description">
+        {{ page.description }}
+      </div>
+    </div>
+  </div>
+  {{ content }}
+</div>

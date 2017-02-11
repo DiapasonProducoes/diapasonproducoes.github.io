@@ -6,13 +6,60 @@ layout: none
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
+  <link href="{{ "/assets/vendors/stylesheets/video.css" | relative_url }}" rel="stylesheet">
+  <!-- IE8 -->
+  <script src="{{ "/assets/vendors/javascripts/videojs-ie8.min.js" | relative_url }}"></script>
 
   <body>
-    {% include header.html %}
+    <div class="video-wrapper">
+      <video id="my-video" class="video-js" data-setup="{}" webkit-playsinline autoplay preload loop
+      poster="">
+        <!-- <source src="{{ "/assets/images/home.mp4" | relative_url }}" type='video/mp4'> -->
+      </video>
 
-    {{ content }}
+      <div class="video-container">
+        <div class="container">
+          <h2>
+            SOM E IMAGEM AFINADOS
+          </h2 class="margin-top-6">
+          <p>
+            Assita ao vídeo e veja o que temos feito!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="call">
+      <div class="container">
+        Sed at fringilla leo, eu rutrum dui. Nulla ac facilisis odio. Sed sed dignissim leo. Maecenas mollis convallis imperdiet. Cras eu volutpat dui. Praesent volutpat et odio vitae accumsan. Curabitur porttitor quam at odio aliquam ullamcorper. Aliquam erat volutpat. Aliquam lectus dolor, mollis a tellus nec, lacinia vulputate erat.
+      </div>
+    </div>
+
+    <div class="categories container-fluid">
+      <div class="row">
+        <div class="col-sm-4 category-background">
+          <div class="category-item">
+            MÚSICAS
+          </div>
+        </div>
+
+        <div class="col-sm-4 category-background green">
+          <div class="category-item">
+            FILMES
+          </div>
+        </div>
+
+        <div class="col-sm-4 category-background blue">
+          <div class="category-item">
+            EVENTOS
+          </div>
+        </div>
+      </div>
+    </div>
 
     {% include footer.html %}
+
+    <script src="{{ "/assets/vendors/javascripts/video.min.js" | relative_url }}"></script>
   </body>
 
 </html>
