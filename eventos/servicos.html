@@ -1,0 +1,24 @@
+---
+layout: multiple_page
+title: Eventos
+page_base_url: eventos
+permalink: /eventos/servicos/
+
+evento_active: active
+servicos: active
+description: 'O foco da Diapason Eventos é garantir vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Veja abaixo os principais serviços:'
+---
+
+{% for servico in site.data.eventos.servicos %}
+  <div class="col-sm-4">
+    <div class="card">
+      <h2 class="title">{{ servico.title }}</h2>
+
+      <div class="sub-description">
+        {{ servico.description }}
+      </div>
+
+    </div>
+  </div>
+{% endfor %}
+

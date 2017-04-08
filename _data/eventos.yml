@@ -1,0 +1,65 @@
+estruturas:
+  - title: Estúdio Sala Grande
+    images:
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+    description: 'O Estúdio Sala Grande é o principal estúdio de gravação da Diapason. Ele foi projetado nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.'
+
+  - title: Estúdio Hermínia
+    images:
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+    description: 'O Estúdio Sala Grande é o principal estúdio de gravação da Diapason. Ele foi projetado nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.'
+
+  - title: Estúdio MX
+    images:
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+    description: 'O Estúdio Sala Grande é o principal estúdio de gravação da Diapason. Ele foi projetado nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.'
+
+servicos:
+  - title: PRODUÇÃO MUSICAL
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - title: gravação em estúdio
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - title: gravação ao vivo
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - title: ensaio gravado
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - title: ensaio produzido
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - title: gravação de videoclipe
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - title: produção de single
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+  - title: criação de jingle
+    description: Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.
+
+portfolio:
+  - title: ACDC
+    images:
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+    description: 'O Estúdio Sala Grande é o principal estúdio de gravação da Diapason. Ele foi projetado nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.'
+    testimony: Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. – João Way
+
+  - title: My way
+    images:
+      - assets/images/musicas/estrutura/1.png
+      - assets/images/musicas/estrutura/1.png
+    description: 'O Estúdio Sala Grande é o principal estúdio de gravação da Diapason. Ele foi projetado nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.'
+    testimony: Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. – João Way

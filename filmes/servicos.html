@@ -1,0 +1,24 @@
+---
+layout: multiple_page
+title: Filmes
+page_base_url: filmes
+permalink: /filmes/servicos/
+
+filme_active: active
+servicos: active
+description: 'O foco da Diapason Filmes é garantir vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Veja abaixo os principais serviços:'
+---
+
+{% for servico in site.data.filmes.servicos %}
+  <div class="col-sm-4">
+    <div class="card">
+      <h2 class="title">{{ servico.title }}</h2>
+
+      <div class="sub-description">
+        {{ servico.description }}
+      </div>
+
+    </div>
+  </div>
+{% endfor %}
+
