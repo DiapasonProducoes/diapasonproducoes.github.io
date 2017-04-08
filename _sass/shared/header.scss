@@ -47,3 +47,28 @@ header {
   background-color: transparent;
   opacity: 1;
 }
+
+
+@media (max-width: 767px) {
+
+  header {
+    &.inner {
+      min-height: 94px;
+
+      ul {
+        margin: 20px 0;
+      }
+
+      a {
+        padding: 10px;
+
+        &.logo {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+
+}

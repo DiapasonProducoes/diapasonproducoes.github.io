@@ -59,3 +59,23 @@
     border: solid 1px #ccc;
   }
 }
+
+
+@media (max-width: 767px) {
+  .slider-container {
+    height: 210px;
+  }
+
+  .slide-action {
+    top: 80px;
+
+    &.back {
+      left: 10px;
+    }
+
+    &.next {
+      right: 10px;
+    }
+
+  }
+}
