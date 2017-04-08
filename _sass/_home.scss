@@ -27,6 +27,7 @@
 
   .video-container {
     position: absolute;
+    overflow: hidden;
     z-index: 20;
     top: 0;
     left: 0;
@@ -35,6 +36,10 @@
 
     text-align: center;
     color: white;
+
+    header {
+      background-image: none;
+    }
 
     h2 {
       margin-top: 270px;

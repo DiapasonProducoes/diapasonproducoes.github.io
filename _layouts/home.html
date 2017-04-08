@@ -14,10 +14,11 @@ layout: none
     <div class="video-wrapper">
       <video id="my-video" class="video-js" data-setup="{}" webkit-playsinline autoplay preload loop
       poster="">
-        <!-- <source src="{{ "/assets/images/home.mp4" | relative_url }}" type='video/mp4'> -->
+        <source src="{{ "/assets/images/video-loop.mp4" | relative_url }}" type='video/mp4'>
       </video>
 
       <div class="video-container">
+        {% include header.html %}
         <div class="container">
           <h2>
             SOM E IMAGEM AFINADOS
@@ -59,6 +60,8 @@ layout: none
 
     {% include footer.html %}
 
+    <script src="{{ "/assets/vendors/javascripts/jquery-2.2.4.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/vendors/javascripts/bootstrap.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/vendors/javascripts/video.min.js" | relative_url }}"></script>
   </body>
 

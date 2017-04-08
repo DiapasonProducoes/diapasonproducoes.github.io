@@ -2,9 +2,15 @@
   .container {
     width: 1000px;
   }
+
 }
 
 @media (max-width: 767px) {
+  .my-video-dimensions {
+    width: 730px;
+    height: 410px;
+  }
+
   footer {
     text-align: center;
 
