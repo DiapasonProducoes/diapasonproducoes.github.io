@@ -1,8 +1,9 @@
 title: Diapason Produções
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Nós ajudamos artistas, bandas e organizações a construir histórias e
+  comunicar ideias afinando imagens, sons e músicas em uma experiência
+  memorável para as pessoas! Para isso, a Diapason está estruturada em três
+  áreas integradas: Músicas, filmes e eventos.
 
 baseurl: "/diapason-pages" # the subpath of your site, e.g. /blog
 url: "http://www.diapasonproducoes.com.br"
