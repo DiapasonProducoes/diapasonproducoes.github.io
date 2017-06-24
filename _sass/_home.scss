@@ -1,10 +1,27 @@
 @import "variables";
 
+#video {
+  width: 100%;
+  min-height: 480px;
+  min-width: 800px;
+  height: 100%;
+}
+
+.video-modal-dialog,
+.video-modal-content {
+  width: 800px;
+  background-color: #000;
+}
+
+[data-video] {
+  cursor: pointer;
+}
+
 .video-wrapper {
     width: 100%;
     height: 800px;
     overflow: hidden;
-    background-image: url('http://liveinliberty.com/blog/wp-content/uploads/2015/08/Photo-by-WineandOreos.jpg');
+    background-image: url('images/home/home-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -81,38 +98,17 @@
 
 .categories {
   .category-background {
-    background-image: url(http://liveinliberty.com/blog/wp-content/uploads/2015/08/Photo-by-WineandOreos.jpg);
-
-    &:before {
-      content: '';
-      z-index: 0;
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-
-      background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6)),
-                        linear-gradient(rgba(208, 1, 27, 0.6), rgba(27, 0, 3, 0.8));
-    }
+    background-image: url('images/home/musicas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 
     &.green {
-      background-image: url(http://liveinliberty.com/blog/wp-content/uploads/2015/08/Photo-by-WineandOreos.jpg);
+      background-image: url('images/home/filmes.png');
 
-      &:before {
-        background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0,0.6)),
-                          linear-gradient(rgba(51, 204, 153, 0.6), #030e0b);
-      }
     }
 
     &.blue {
-      background-image: url(http://liveinliberty.com/blog/wp-content/uploads/2015/08/Photo-by-WineandOreos.jpg);
-
-      &:before {
-        background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6)),
-                          linear-gradient(rgba(58, 147, 214, 0.6), rgba(9, 27, 41, 0.68));
-      }
+      background-image: url('images/home/eventos.png');
     }
   }
 

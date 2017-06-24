@@ -6,20 +6,27 @@ layout: none
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
+
   <link href="{{ "/assets/vendors/stylesheets/video.css" | relative_url }}" rel="stylesheet">
   <!-- IE8 -->
   <script src="{{ "/assets/vendors/javascripts/videojs-ie8.min.js" | relative_url }}"></script>
 
   <body>
+    <div class="modal" id="modal">
+      <div class="modal-dialog video-modal-dialog">
+        <div class="modal-content video-modal-content">
+          <iframe id="video" src="https://www.youtube.com/embed/RLc7kIRHipA" data-video="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
     <div class="video-wrapper">
       <video id="my-video" class="video-js" data-setup="{}" webkit-playsinline autoplay preload loop
       poster="">
-        <source src="{{ "/assets/images/video-loop.mp4" | relative_url }}" type='video/mp4'>
+        <source src="{{ "/assets/images/video-loop-small.mp4" | relative_url }}" type='video/mp4'>
       </video>
-
       <div class="video-container">
         {% include header.html %}
-        <div class="container">
+        <div class="container" data-video="">
           <h2>
             SOM E IMAGEM AFINADOS
           </h2 class="margin-top-6">
@@ -40,19 +47,19 @@ layout: none
       <div class="row">
         <div class="col-sm-4 category-background">
           <div class="category-item">
-            <a href="{{site.baseurl}}/musicas/">MÚSICAS</a>
+            <a href="#">MÚSICAS</a>
           </div>
         </div>
 
         <div class="col-sm-4 category-background green">
           <div class="category-item">
-            <a href="{{site.baseurl}}/filmes/">FILMES</a>
+            <a href="#">FILMES</a>
           </div>
         </div>
 
         <div class="col-sm-4 category-background blue">
           <div class="category-item">
-            <a href="{{site.baseurl}}/eventos/">EVENTOS</a>
+            <a href="#">EVENTOS</a>
           </div>
         </div>
       </div>
@@ -63,6 +70,7 @@ layout: none
     <script src="{{ "/assets/vendors/javascripts/jquery-2.2.4.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/vendors/javascripts/bootstrap.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/vendors/javascripts/video.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/javascripts/video-modal.js" | relative_url }}"></script>
   </body>
 
 </html>
