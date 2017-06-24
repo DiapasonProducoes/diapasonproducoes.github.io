@@ -67,7 +67,7 @@
       opacity: 0.7;
       font-family: Lato;
       font-size: 2.25rem;
-      font-style: italic;
+      font-weight: 300;
       font-stretch: normal;
       line-height: normal;
       letter-spacing: normal;
@@ -98,6 +98,7 @@
 
 .categories {
   .category-background {
+    display: table;
     background-image: url('images/home/musicas.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,7 +117,10 @@
     position: relative;
     z-index: 1;
     height: 600px;
-    line-height: 600px;
+
+    display: table-cell;
+    vertical-align: middle;
+
     text-align: center;
 
     font-size: 3rem;
@@ -130,16 +134,18 @@
     a {
       color: $white;
     }
+
+    .info-category {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
   }
 }
 
 @media (max-width: 767px) {
 
   #video {
-    // width: 100%;
-    // min-height: 480px;
     min-width: auto;
-    // height: 100%;
   }
 
   .video-modal-dialog,
@@ -174,9 +180,14 @@
   }
 
   .categories {
+    .category-background {
+      display: block;
+    }
+
     .category-item {
       height: 300px;
-      line-height: 300px;
+      display: block;
+      padding-top: 50px;
     }
   }
 }

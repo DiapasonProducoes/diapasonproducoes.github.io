@@ -13,16 +13,13 @@ social:
     url: http://www.instagram.com/diapasonproducoes
     icon: fa-instagram
   - title: facebook
-    url: http://www.facebook.com/diapasonproducoes
+    url: http://www.facebook.com/DiapasonProducoes
     icon: fa-facebook-official
-  - title: twitter
-    url: http://www.twitter.com/diapasonproducoes
-    icon: fa-twitter-square
   - title: youtube
-    url: https://www.youtube.com/user/diapasonproducoes
+    url: https://www.youtube.com/diapasonproducoes
     icon: fa-youtube-square
   - title: email
-    url: mailto:diapasonproducoes@diapasonproducoes.com.br
+    url: mailto:contato@diapason.com.br
     icon: fa-envelope-square
 
 
