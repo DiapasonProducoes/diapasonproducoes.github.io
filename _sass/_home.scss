@@ -2,6 +2,7 @@
 
 .video-left {
   position: relative;
+  top: -100px;
 }
 
 #video {
@@ -23,7 +24,7 @@
 
 .video-wrapper {
     width: 100%;
-    height: 800px;
+    height: 650px;
     overflow: hidden;
     background-image: url('images/home/home-bg.png');
     background-repeat: no-repeat;
@@ -63,7 +64,7 @@
     }
 
     h2 {
-      margin-top: 270px;
+      margin-top: 170px;
       font-size: 2.625rem;
     }
 
@@ -150,6 +151,10 @@
 
   #video {
     min-width: auto;
+  }
+
+  .video-left {
+    top: 0;
   }
 
   .video-modal-dialog,
