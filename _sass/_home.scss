@@ -134,10 +134,30 @@
 }
 
 @media (max-width: 767px) {
+
+  #video {
+    // width: 100%;
+    // min-height: 480px;
+    min-width: auto;
+    // height: 100%;
+  }
+
+  .video-modal-dialog,
+  .video-modal-content {
+    width: auto;
+    background-color: #000;
+  }
+
+  .my-video-dimensions.my-video-dimensions {
+    height: 310px;
+  }
+
   .video-wrapper {
-    height: 400px;
+    height: 310px;
 
     .video-container {
+      height: 310px;
+
       h2 {
         margin-top: 50px;
         font-size: 2rem;
