@@ -1,5 +1,11 @@
 @import "variables";
 
+.max-container {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .video-left {
   position: relative;
   top: -100px;
@@ -32,6 +38,7 @@
     background-size: cover;
 
   &:before {
+
     content: '';
     background-color: rgba($greyish-brown, 0.5);
     display: block;
@@ -39,6 +46,11 @@
     height: inherit;
     width: inherit;
     position: absolute;
+
+    // max-container
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   video {
