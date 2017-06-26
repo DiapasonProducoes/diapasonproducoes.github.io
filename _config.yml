@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   memorável para as pessoas! Para isso, a Diapason está estruturada em três
   áreas integradas: Músicas, filmes e eventos.
 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.diapason.com.br"
 
 social:
