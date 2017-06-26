@@ -1,9 +1,12 @@
 title: Diapason Produções
 description: > # this means to ignore newlines until "baseurl:"
-  Nós ajudamos artistas, bandas e organizações a construir histórias e
-  comunicar ideias afinando imagens, sons e músicas em uma experiência
-  memorável para as pessoas! Para isso, a Diapason está estruturada em três
-  áreas integradas: Músicas, filmes e eventos.
+  Transformando sonhos em áudio, filmes e fotografias desde 2012, a
+  Diapason sabe que som e imagem são meios muito poderosos de comunicação.
+  Nossos clientes contam com equipe e estúdios atualizados, versáteis e
+  altamente qualificados em equipamentos e estrutura. Mais que isto,
+  profissionais com conhecimento e experiência para fazer o melhor uso
+  desta tecnologia e traduzir suas emoções em produções audiovisuais especiais
+  e únicas, levando sua história para ser sentida na pele.
 
 baseurl: "diapasonproducoes.github.io/" # the subpath of your site, e.g. /blog
 url: "http://www.diapason.com.br"
