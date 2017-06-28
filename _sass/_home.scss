@@ -40,7 +40,7 @@
   &:before {
 
     content: '';
-    background-color: rgba($greyish-brown, 0.5);
+    //background-color: rgba($greyish-brown, 0.5);
     display: block;
     z-index: 10;
     height: inherit;
@@ -78,6 +78,7 @@
     h2 {
       margin-top: 170px;
       font-size: 2.625rem;
+      font-weight: 700;
     }
 
     p {
