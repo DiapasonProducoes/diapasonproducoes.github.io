@@ -21,6 +21,9 @@ social:
   - title: youtube
     url: https://www.youtube.com/diapasonproducoes
     icon: fa-youtube-square
+  - title: flickr
+    url: https://www.flickr.com/photos/diapason
+    icon: fa-flickr
   - title: email
     url: mailto:contato@diapason.com.br
     icon: fa-envelope-square
