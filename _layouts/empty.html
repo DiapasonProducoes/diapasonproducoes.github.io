@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="empty">
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    <script src="{{ "/assets/vendors/javascripts/jquery-2.2.4.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/vendors/javascripts/bootstrap.min.js" | relative_url }}"></script>
+
+    <script src="{{ "/assets/javascripts/components/slider.js" | relative_url }}"></script>
+    <script src="{{ "/assets/main.js" | relative_url }}"></script>
+  </body>
+
+</html>

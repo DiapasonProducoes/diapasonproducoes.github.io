@@ -1,0 +1,249 @@
+@import "variables";
+
+.convida {
+
+  .banner {
+    background-size: cover;
+    background-image: url('images/convida/banner.png');
+  }
+
+  .text-call {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .full-text-call {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .outer-container {
+    padding: 80px;
+
+    &.red {
+      color: white;
+      background-color: rgb(217, 65, 58);
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .palheta {
+      position: absolute;
+      top: -150px;
+      right: 120px;
+      max-width: 130px;
+    }
+  }
+
+  .join {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 70px;
+    text-align: right;
+    padding-right: 70px;
+    border-right: solid 3px white;
+  }
+
+  .join-details {
+    margin-top: 20px;
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 30px;
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  .hyphens {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .chosen {
+    position: relative;
+    margin-top: 40px;
+
+    .microfone {
+      position: absolute;
+      left: 0;
+      top: -140px;
+      max-width: 230px;
+    }
+  }
+
+  .chosen-container {
+    max-width: 680px;
+    margin: 0 auto;
+
+    border: solid 4px black;
+
+    .one {
+      font-size: 150px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .one-details {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 20px;
+
+      border-left: solid 4px black;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 60px;
+    }
+  }
+
+  .cabo-container {
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+
+    .cabo-title {
+      margin-left: 10%;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .cabos {
+      position: absolute;
+      z-index: 1;
+
+      &.cabo-2 {
+        position: relative;
+        max-height: 400px;
+        width: 100%;
+      }
+    }
+
+    .cabo-1 {
+      max-width: 600px;
+      right: 0;
+      top: -100px;
+    }
+
+    .cabo-3 {
+      bottom: 0;
+      left: 0;
+      max-width: 500px;
+    }
+
+    .cabo-fill {
+      margin-bottom: 200px;
+      max-width: 700px;
+    }
+
+    .icon-artist {
+      max-height: 150px;
+    }
+  }
+
+  .form-container {
+    position: relative;
+    margin-bottom: 30px;
+
+    .violao {
+      max-width: 450px;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+.empty {
+  .max-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .convida {
+    .form-container {
+      .violao {
+        max-width: 360px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .convida {
+    .outer-container {
+      padding: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .palheta {
+        right: 20px;
+        top: -50px;
+        max-width: 90px;
+      }
+    }
+
+    .join {
+      border-right: none;
+      padding-right: 0;
+      text-align: center;
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    .chosen {
+      .microfone {
+        top: -30px;
+        max-width: 150px;
+      }
+    }
+
+    .chosen-container {
+      .one-details {
+        border-left: 0;
+        padding-left: 0;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 20px;
+        text-align: center;
+      }
+    }
+
+    .cabo-container {
+      .cabo-title {
+        text-align: center;
+        margin-left: 0;
+      }
+
+      .icon-artist {
+        margin-bottom: 30px;
+      }
+
+      .cabo-1,
+      .cabo-fill {
+        max-width: 100%;
+      }
+
+      .cabo-3 {
+        max-width: 60%;
+      }
+    }
+
+    .form-container {
+      .violao {
+        display: none;
+      }
+    }
+  }
+}

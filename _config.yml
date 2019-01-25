@@ -8,7 +8,10 @@ description: > # this means to ignore newlines until "baseurl:"
   desta tecnologia e traduzir suas emoções em produções audiovisuais especiais
   e únicas, levando sua história para ser sentida na pele.
 
-baseurl: "diapasonproducoes.github.io/" # the subpath of your site, e.g. /blog
+# DEV
+baseurl: "" # the subpath of your site, e.g. /blog
+# PRODUCTION
+# baseurl: "diapasonproducoes.github.io/" # the subpath of your site, e.g. /blog
 url: "http://www.diapason.com.br"
 
 social:
